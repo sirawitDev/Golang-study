@@ -5,7 +5,8 @@ import (
 
 	"github.com/google/uuid" //สร้าง UUID แบบสุ่ม
 
-	"github.com/sirawitDev/go-example/test" //นำเข้าแพ็กเกจ test ที่สร้างขึ้นเอง
+	"github.com/sirawitDev/go-example/test"     //นำเข้าแพ็กเกจ test ที่สร้างขึ้นเอง
+	"github.com/sirawitDev/go-example/variable" //นำเข้าแพ็กเกจ variable ที่สร้างขึ้นเอง
 )
 
 func main() {
@@ -18,6 +19,8 @@ func main() {
 	sayHello() //เรียกใช้ฟังก์ชัน sayHello
 
 	test.SayHelloTest() //เรียกใช้ฟังก์ชัน SayHelloTest จากแพ็กเกจ test
+
+	variable.PrintVariable() //เรียกใช้ฟังก์ชัน PrintVariable จากแพ็กเกจ variable
 
 }
 
