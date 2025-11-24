@@ -7,8 +7,10 @@ import (
 
 	"github.com/sirawitDev/go-example/controlstructure" //นำเข้าแพ็กเกจ controlstructure ที่สร้างขึ้นเอง
 	"github.com/sirawitDev/go-example/datastructure"    //นำเข้าแพ็กเกจ datastructure ที่สร้างขึ้นเอง
-	"github.com/sirawitDev/go-example/test"             //นำเข้าแพ็กเกจ test ที่สร้างขึ้นเอง
-	"github.com/sirawitDev/go-example/variable"         //นำเข้าแพ็กเกจ variable ที่สร้างขึ้นเอง
+	"github.com/sirawitDev/go-example/functions"        //นำเข้าแพ็กเกจ functions ที่สร้างขึ้นเอง
+	//นำเข้าแพ็กเกจ interface ที่สร้างขึ้นเอง
+	"github.com/sirawitDev/go-example/test"     //นำเข้าแพ็กเกจ test ที่สร้างขึ้นเอง
+	"github.com/sirawitDev/go-example/variable" //นำเข้าแพ็กเกจ variable ที่สร้างขึ้นเอง
 )
 
 func main() {
@@ -35,6 +37,8 @@ func main() {
 	datastructure.SliceExample()
 	datastructure.MapExample()
 	datastructure.StructExample()
+
+	functions.FunctionsExample()
 }
 
 func sayHello() {
